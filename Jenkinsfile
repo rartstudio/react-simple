@@ -1,3 +1,4 @@
+pipeline {
     agent {
         docker {
             image 'node:20.11.0-alpine3.19' 
@@ -12,3 +13,4 @@
         }
     }
 }
+
